@@ -15,3 +15,10 @@ To install and run the app locally:
    ```bash
    git clone https://github.com/your-username/ecommerce-shopping-cart.git
    cd ecommerce-shopping-cart
+To start the app, run the command `npm start` in your terminal.
+> Remember to run `npm install` before starting the app to install all dependencies.
+| Feature               | Description                                      |
+|-----------------------|--------------------------------------------------|
+| Product Listing       | Displays products with details and "Add to Cart" |
+| Cart Page             | Manage products added to the cart                |
+| Discounts             | Fixed or percentage-based discounts              |
