@@ -59,3 +59,40 @@ Follow these steps to set up and run the project on your local machine:
 ```bash
 git clone https://github.com/your-username/ecommerce-shopping-cart.git
 cd ecommerce-shopping-cart
+
+## 2. Install dependencies
+npm install
+
+## 3. Start the development server
+npm start
+
+## Project Structure
+ecommerce-shopping-cart/
+├── src/
+│   ├── components/        # Reusable components (e.g., Navbar)
+│   │   └── Navbar.js
+│   ├── pages/             # Pages for routing (Home, Cart)
+│   │   ├── Home.js
+│   │   └── Cart.js
+│   ├── data/              # Mock product data
+│   │   └── products.json
+│   ├── styles/            # TailwindCSS styles
+│   │   └── tailwind.css
+│   ├── App.js             # Main application file
+│   └── index.js           # React entry point
+├── public/                # Static files
+├── tailwind.config.js     # TailwindCSS configuration
+├── README.md              # Project documentation
+└── package.json           # Project dependencies
+
+## Usage Instructions
+1. Home Page
+2. Browse the product listing page.
+### Click the "Add to Cart" button to add products to your shopping cart.
+## Cart Page
+1. Access the cart page from the navigation bar.
+2. View the added products with details.
+3. Adjust quantities using the up/down buttons.
+4. Remove items using the "Remove Item" button.
+5. Review the subtotal, discounts (if any), and final price.
+
